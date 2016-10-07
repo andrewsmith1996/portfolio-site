@@ -67,7 +67,7 @@
             <li>
                 <a class="linkedinbutton" href="https://uk.linkedin.com/in/andrew-smith-062756115" target="_blank"> <img alt = "Access my LinkedIn!" id="image-social-1" src="linkedin.png" width="42" height="40"> </a> &nbsp;
                 <a id="hovercursor">
-                    <a data-toggle="modal" data-target="#myModal"> <img id="image-social-2" src="EMAIL.png" width="40" height="40"> </a> </a>
+                    <a data-toggle="modal" data-target="#myModal"> <img alt = "Email/contact me" id="image-social-2" src="EMAIL.png" width="40" height="40"> </a> </a>
             </li>
 
         </ul>
