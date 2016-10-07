@@ -1,4 +1,4 @@
-# My Portfolio Site for my web based projects.
+# My Portfolio Site for a few of my web based projects.
 
 My portfolio site that uses HTML, CSS, JavaScript, JQuery, PHP, AJAX, SQL and MySQL.
 
