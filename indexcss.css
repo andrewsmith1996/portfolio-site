@@ -1,8 +1,14 @@
 body{
 
-    background: #43cea2;
-    background: -webkit-linear-gradient(to left, #43cea2 , #185a9d);
-    background: linear-gradient(to left, #43cea2 , #185a9d);
+
+
+    background: #2c3e50; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2c3e50 , #3498db); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2c3e50 , #3498db); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
     font-family: 'Montserrat Alternates', sans-serif;
     width: 100%;
     height: auto;
@@ -37,6 +43,7 @@ body{
         margin-left: 2%;
         margin-right:2%;
 }
+
 
 
 #mobile-title, #mobile-title-mini{
@@ -81,7 +88,7 @@ form{
     margin-top: 80px;
     float: left;
     width: 19%;
-    height: 350px;
+    height: 370px;
     overflow: hidden;
 }
 
@@ -239,13 +246,17 @@ form{
 
 }
 
+
 @media screen and (max-width: 990px) {
 
     .skills p{
 
             font-size: 20px;
 
+
         }
+
+
 
 }
 
@@ -294,6 +305,9 @@ form{
 
 
 }
+
+
+
 
 
 
@@ -484,7 +498,6 @@ form{
     }
 
 
-
     #main-section{
         margin:0;
         width:100%;
@@ -492,6 +505,9 @@ form{
         display: block;
         height: auto;
     }
+
+
+
 
 
 
@@ -571,6 +587,8 @@ form{
 
 
 @media screen and (max-width: 460px) {
+
+
 
 
         .skills p{
