@@ -3,43 +3,6 @@ body{
     background: #43cea2;
     background: -webkit-linear-gradient(to left, #43cea2 , #185a9d);
     background: linear-gradient(to left, #43cea2 , #185a9d);
-
-
-
-    /*
-    background: #00c6ff;
-    background: -webkit-linear-gradient(to left, #00c6ff , #0072ff);
-    background: linear-gradient(to left, #00c6ff , #0072ff);
-    */
-
-
-    /*
-    background: #1A2980;
-    background: -webkit-linear-gradient(to left, #1A2980 , #26D0CE);
-    background: linear-gradient(to left, #1A2980 , #26D0CE);
-    */
-
-    /*
-    background: #1e3c72;
-    background: -webkit-linear-gradient(to left, #1e3c72 , #2a5298);
-    background: linear-gradient(to left, #1e3c72 , #2a5298);
-    */
-
-
-
-
-
-
-/*
-background: #00d2ff;
-background: -webkit-linear-gradient(to left, #00d2ff , #3a7bd5);
-background: linear-gradient(to left, #00d2ff , #3a7bd5);
-*/
-
-
-
-
-
     font-family: 'Montserrat Alternates', sans-serif;
     width: 100%;
     height: auto;
@@ -76,10 +39,6 @@ background: linear-gradient(to left, #00d2ff , #3a7bd5);
 }
 
 
-/*#box5{
-    margin-top: 20px;
-}*/
-
 #mobile-title, #mobile-title-mini{
     display:none;
 }
@@ -104,7 +63,7 @@ background: linear-gradient(to left, #00d2ff , #3a7bd5);
 
 }
 
-#title, #title-2{
+.title, .title-2{
 
     color: white;
     text-align: left;
@@ -145,7 +104,7 @@ form{
     font-size: 21px;
 }
 
-#say-hello-line{
+.say-hello-line{
     text-align: left;
 
     color: white;
@@ -280,29 +239,13 @@ form{
 
 }
 
-
-/*@media screen and (max-width: 1070px) {
-
-
-    #box5{
-        margin-top: 40px;
-    }
-
-
-
-}
-*/
-
 @media screen and (max-width: 990px) {
 
     .skills p{
 
             font-size: 20px;
-            /*margin-top: 40px;*/
 
         }
-
-
 
 }
 
@@ -351,19 +294,6 @@ form{
 
 
 }
-
-
-/*
-
-
-        #box5{
-            margin-top: 30px;
-        }
-
-
-
-}*/
-
 
 
 
@@ -440,7 +370,7 @@ form{
     }
 
 
-    #say-hello-line{
+    .say-hello-line{
 
         font-size: 16px;
     }
@@ -483,7 +413,7 @@ form{
 
     }
 
-    #title-2{
+    .title-2{
 
         font-size: 24px;
     }
@@ -498,7 +428,7 @@ form{
     }
 
 
-    #say-hello-line{
+    .say-hello-line{
 
         font-size: 16px;
     }
@@ -534,7 +464,7 @@ form{
 @media screen and (max-width: 610px) {
 
 
-    #title{
+    .title{
         text-align: center;
     }
 
@@ -553,10 +483,7 @@ form{
         overflow: hidden;
     }
 
-        /*    #box5{
-                margin-top: 10px;
-            }
-*/
+
 
     #main-section{
         margin:0;
@@ -568,15 +495,12 @@ form{
 
 
 
-
-
-
     #navbar-list a{
         font-size: 18px;
     }
 
 
-    #say-hello-line{
+    .say-hello-line{
 
         font-size: 16px;
     }
@@ -614,7 +538,7 @@ form{
 
     }
 
-    #say-hello-line{
+    .say-hello-line{
         text-align: center;
         font-size: 22px;
     }
@@ -649,8 +573,6 @@ form{
 @media screen and (max-width: 460px) {
 
 
-
-
         .skills p{
                 margin-top: 30px;
                 font-size: 20px;
@@ -659,10 +581,10 @@ form{
             }
 
 
-#title{
+.title{
     font-size: 40px;
 }
-#title-2{
+.title-2{
     font-size: 26px;
 }
 }
