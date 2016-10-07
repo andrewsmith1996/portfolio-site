@@ -60,14 +60,14 @@
             <li> <a id="modules-click"> Education </a> </li>
             <li class="hide">
                 <hr class="mini-line hide" id='linkedinline'> </li>
-            <hr class="mini-line">
+            <li> <hr class="mini-line"> </li>
             <li>
                 <p class="say-hello-line"> Say Hello? </p>
             </li>
             <li>
-                <a id="linkedinbutton" href="https://uk.linkedin.com/in/andrew-smith-062756115" target="_blank"> <img id="image-social-1" src="linkedin.png" width="42" height="40"> </a> &nbsp
+                <a class="linkedinbutton" href="https://uk.linkedin.com/in/andrew-smith-062756115" target="_blank"> <img alt = "Access my LinkedIn!" id="image-social-1" src="linkedin.png" width="42" height="40"> </a> &nbsp;
                 <a id="hovercursor">
-                    <a data-toggle="modal" data-target="#myModal"> <img id="image-social-2" src="EMAIL.png" width="40" height="40"> </a>
+                    <a data-toggle="modal" data-target="#myModal"> <img id="image-social-2" src="EMAIL.png" width="40" height="40"> </a> </a>
             </li>
 
         </ul>
@@ -291,7 +291,7 @@
         <footer id="footer">
             <hr id="bottom-line">
             <p class="say-hello-line"> Say Hello? </p>
-            <a id="linkedinbutton" href="https://uk.linkedin.com/in/andrew-smith-062756115" target="_blank"> <img alt="Access to my LinkedIn Profile" src="linkedin.png" width="42" height="40"> </a>
+            <a class="linkedinbutton" href="https://uk.linkedin.com/in/andrew-smith-062756115" target="_blank"> <img alt="Access to my LinkedIn Profile" src="linkedin.png" width="42" height="40"> </a>
             <a data-toggle="modal" data-target="#myModal"> <img alt="Email/Contact me!" src="EMAIL.png" width="40" height="40"> </a>
             <br>
             <br>
@@ -419,7 +419,7 @@
             var hidden = true;
 
             $('#linkedinline').hide();
-            $('#linkedinbutton').hide();
+            $('.linkedinbutton').hide();
             $('#email-link').hide();
             $('li').hide();
             $(".fade-box").hide();
@@ -440,7 +440,7 @@
             $(".fade-box").each(function(i) {
                 $(this).delay((i + 1) * 150).fadeIn();
                 $('#linkedinline').delay((i + 1) * 150).fadeIn();
-                $('#linkedinbutton').delay((i + 1) * 150).fadeIn();
+                $('.linkedinbutton').delay((i + 1) * 150).fadeIn();
                 $('#email-link').delay((i + 1) * 150).fadeIn();
             });
 
