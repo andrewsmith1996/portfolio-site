@@ -4,7 +4,7 @@
 
 <head>
 
-    <title> Home </title>
+    <title> Home S</title>
 
     <!-- Meta Data -->
     <meta name="keywords" content="Andrew, Smith, Andrew Smith, Andrew Smith Developer, Full Stack Developer">
