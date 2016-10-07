@@ -28,7 +28,6 @@
 
 </head>
 
-
 <body>
 
     <!-- Top Title bar with different sections to be shown/hidden-->
@@ -46,8 +45,6 @@
         <div id="mobile-title-mini">
             <h1 class="title"> Andrew Smith <br> <span class = "title-2" style = "font-family: 'Raleway', sans-serif;"> Full Stack Developer </span> </h1>
         </div>
-
-
 
     </section>
 
@@ -73,8 +70,6 @@
         </ul>
 
     </section>
-
-
 
     <!-- Main section of images -->
     <section id="main-section" class="container-fluid">
@@ -148,8 +143,6 @@
 
         </div>
 
-
-
         <a name="skills-anchor2" id="skills-anchor2"> </a>
         <div class="new-row row fade-box" id="box4">
             <div class="inside">
@@ -220,8 +213,6 @@
                 <h3 class="section-title"> Work Placement at Brooks Computer Repair Shop </h3>
                 <p class="skills-list"> Completed a week placement in a local Computer repair shop. It allowed me to understand how to work professionally and give out great customer service.</p>
 
-
-
             </div>
         </div>
 
@@ -271,20 +262,10 @@
 
                 <p class="skills-list"> Database Systems </p>
 
-
-
-
             </div>
         </div>
 
-
-
-
-
-
-
     </section>
-
 
     <div id="footer-holder">
 
@@ -297,7 +278,6 @@
             <br>
         </footer>
     </div>
-
 
     <!-- Hidden modal for contact form -->
     <div class="modal fade" id="myModal" role="dialog">
@@ -343,8 +323,6 @@
         </div>
     </div>
 
-
-
     <script>
         $(document).ready(function() {
 
@@ -386,7 +364,6 @@
                 })
             });
 
-
             //Send form AJAX
             $(".send").submit(function(e) {
                 $.ajax({
@@ -397,15 +374,12 @@
                         //If successful then print the message to the screen using JQuery animation
                         if (data) {
                             $('.alert-sign').removeClass('hidden').hide().html(data).fadeIn();
-
                         }
-
                     }
                 });
                 //Prevent the form from automatically submitting
                 e.preventDefault();
             });
-
 
             //Moves the height for responsive design
             var height = $(window).height();
@@ -424,7 +398,6 @@
             $('li').hide();
             $(".fade-box").hide();
 
-
             //Fade the box for the hover over effect
             $(".website-box").mouseenter(function() {
                 $(this).find(".skills").fadeIn();
@@ -435,7 +408,6 @@
                 $(this).find(".skills").fadeOut();
             });
 
-
             //On load animation
             $(".fade-box").each(function(i) {
                 $(this).delay((i + 1) * 150).fadeIn();
@@ -444,12 +416,9 @@
                 $('#email-link').delay((i + 1) * 150).fadeIn();
             });
 
-
-
             $('li').each(function(i) {
                 $(this).delay((i + 1) * 30).slideDown();
             });
-
 
             $("#top-panel h1").slideDown();
             $("#top-panel h2").slideDown();
@@ -472,7 +441,6 @@
                     $("#modules-click").css("color", "white");
                 }
 
-
                 if ($(this).scrollTop() >= $('#projects-anchor').position().top) {
                     $("#projects-click").css("color", "black");
                     $("#portfolio-click").css("color", "white");
@@ -491,6 +459,4 @@
         });
     </script>
 </body>
-
-
 </html>
